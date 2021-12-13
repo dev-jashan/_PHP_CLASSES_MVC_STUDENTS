@@ -1,0 +1,44 @@
+
+.memberCard {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+#card{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 8px;
+    background: #fafafa;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #333333;
+}
+.cardsContainer *{
+    box-sizing: border-box;
+}
+#img{
+    width: 100%;
+    object-fit: cover;
+    border: solid 30px rgb(39, 35, 35);
+} 
+
+#card{
+    border: solid 10px rgb(39, 35, 35);
+    background-color: rgb(201, 201, 11);
+}
+#imgContent{
+    background-color: rgb(39, 35, 35);
+}
+#bookContent p{
+    font-weight: bold;
+    color: rgb(39, 35, 35);
+}
+h1{
+    color:  rgb(201, 201, 11);
+    text-align: center;
+}

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800');
+
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color:#333;
+    padding: 0%;
+    margin: 0%;
+}
+
+#navBar{
+    width:100%;
+    height:auto;
+    position:relative;
+    top:0;
+    background-color:#373b40;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+
+
+
+#userMenu{
+    margin-left: auto;
+    padding-right: 1em;
+}
+
+#title{
+    padding-left: 1em;
+}
+
+ol{
+    list-style-type: none;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em;
+    margin:0;
+    flex-wrap: wrap;
+}
+
+li {
+    /*float: right;*/
+    margin:0 1em;
+    flex: 1 1 auto;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 1em;
+    color: yellow;
+    font-family: 'Righteous', cursive;
+}
+
+.d-flex button{
+    margin: 1.5em 0.5em;
+    padding: 0.3em 1.4em;
+}
+
+.d-flex table{
+    margin: 1em 10em;
+}
+
+th {
+    cursor: pointer;
+}
+
+table .btnedit{
+    color: lightsalmon;
+    cursor: pointer;
+}
+
+.success{
+    background-color: lightgreen;
+    padding: 1em;
+}
+
+.error{
+    background-color: tomato;
+    padding: 1em;
+}
+
+#cardsSection{
+    line-height: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 400;
+}
+
+#cardsSection > * {
+    padding: 0;
+    margin: 1em;
+}
+
+.formIcons{
+    height: 18px;
+    width: 18px;
+}
+
+td > div{
+    width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#divSel {
+    padding:0;
+    display: inline-block;
+    vertical-align: middle;
+    height: 1.5em;
+}
+#selCat{
+    padding: 0 0 0 1px;
+    border:none;
+    white-space: normal;
+    height: 100%;
+    width: 100% !important;
+}
+.catOpt{
+    background-color:white;
+    margin-left:-1px;
+    display: inline-block;
+    font-size: .65em;
+}
+
+
+
+ul > li {
+    display: inline-block;
+    color: white;
+}
+
+form {
+    display: inline-block;
+}
+
+.input-group-text {
+    height: 100%;
+}
+.formErr{
+    color: red;
+    text-align: center;
+}
+.loginForm{
+    text-align: center;
+}
+#adminLabel{
+    color:yellow;
+    margin-left: 5px;
+}
+#userLabel{
+    color:yellow;
+    margin-left: 5px;
+}
+#display{
+    font-size: 450%;
+}

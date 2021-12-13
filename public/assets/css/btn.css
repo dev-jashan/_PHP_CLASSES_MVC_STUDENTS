@@ -1,0 +1,51 @@
+#btnContainer{
+    text-align: center;
+    padding: 1%;
+}
+#btnContainer div button{
+    width: 80%;
+    padding: 4%;
+    margin-top: 2%;
+    background-color: rgb(39, 35, 35);
+    color: rgb(201, 201, 11);
+    font-weight: bold;
+    font-size: 170%;
+}
+.wrapper{
+    margin-top: 2%;
+}
+
+#back a{
+    background-color: black;
+    padding: 20px;
+    color:yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+#login a{
+    background-color: black;
+    padding: 20px;
+    color:yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+#indexContainer{
+    display: flex;
+}
+#logout a{
+    background-color: black;
+    padding: 20px;
+    color:yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+#index a{
+    background-color: black;
+    padding: 20px;
+    color:yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+#logo{
+    font-size: 30px;
+}
